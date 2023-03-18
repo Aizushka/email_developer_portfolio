@@ -9,13 +9,16 @@
     <title>Portfolio</title>
 </head>
 <body>
+
+<!-- NAV start -->
+
     <nav class="container container-fluid">
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a href="#about" class="nav-link active">About</a>
             </li>
             <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#works" class="nav-link">Works</a>
             </li>
             <li class="nav-item">
                 <a href="#skillsTools" class="nav-link">Skills&Tools</a>
@@ -37,7 +40,7 @@
 
 <!-- PORTFOLIO start -->
 
-    <section id="portfolio" class="container">
+    <section id="works" class="container">
         <h2>Portfolio is here!</h2>
 
         <nav>
@@ -47,14 +50,14 @@
             <button>News Letter</button>
             <button>Landing</button> 
         </nav>
-        
-        <div class="card-deck">
+
+        <div class="card-deck"> <!-- card-deck start -->
             
             <div class="card ">
                 <div class="card-body">
                     <h4 class="card-title">work name 1</h4>
                     <h5 class="card-subtitle">work description</h5>
-                    <a href="#" class="stretched-link">Go somewhere</a>
+                    <a href="#popup1" class="stretched-link">Go somewhere</a>
                 </div>
                 <img class="card-img-bottom" src="img/unnamed.png" alt="work-img">
             </div>
@@ -63,17 +66,16 @@
                 <div class="card-body">
                     <h4 class="card-title">work name 2</h4>
                     <h5 class="card-subtitle">work description</h5>
-                    <a href="#" class="stretched-link">Go somewhere</a>
+                    <a href="#popup2" class="stretched-link">Go somewhere</a>
                 </div>
                 <img class="card-img-bottom" src="img/unnamed.png" alt="work-img">
             </div>
 
-        </div>
+        </div>  <!-- .card-deck end-->
 
+    </section> 
+<!-- portfolio section end   -->
 
-    </section>
-<!-- Portfolio end -->
-    
 <!-- SKILLS start -->
 
     <section id="skillsTools" class="container">
@@ -98,6 +100,22 @@
     </section>
 <!-- Contacts end -->
 
+<!-- POPUP start -->
+
+    <section class="popups">
+
+        <div id="popup1" class="popup">
+            <div class="popup_body">
+                <div class="popup_content">
+                    <a href="#" class="popup_close"></a>
+                    <div class="popup_title">Modal work1</div>
+                    <div class="popup_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                </div>
+            </div>
+        </div>
+
+    </section> 
+<!-- Popup end -->
 
     <script src="js/bootstrap.js"></script>
 </body>
